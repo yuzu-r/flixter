@@ -31,6 +31,9 @@ gem 'carrierwave-aws'
 # payments
 gem 'stripe'
 
+# reordering
+gem 'ranked-model'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
