@@ -55,9 +55,44 @@
   <br class="clr" />
   <div id="footer">
     <div class="container">
-      <b>Teachers</b>
-      <br />
-      <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <div class="col-xs-12 col-sm-3">
+        <b>Teachers</b>
+        <br />
+        <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <br />
+        <%= link_to 'My Dashboard', dashboard_path %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>About</b>
+        <br />
+        <%= link_to 'Team', '#' %>
+        <br />
+        <%= link_to 'Careers', '#' %>
+        <br />
+        <%= link_to 'Privacy Policy', '#' %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>Contact</b>
+        <br />
+        admin@example.com
+        <br />
+        The Cupboard Under the Stairs
+        <br />
+        UK
+      </div>
+      <div class="col-xs-12 col-sm-3 social">
+        <b>Social</b>
+        <br /><br />
+        <%= link_to 'http://www.twitter.com' do %>
+          <%= image_tag '1462916126_twitter.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'http://wwww.facebook.com' do %>
+          <%= image_tag '1462916159_facebook.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'http://github.com/yuzu-r' do %>
+          <%= image_tag '1462916186_github.png', class: 'social-button' %>
+        <% end %>
+      </div>
     </div>
   </div>
 </body>
